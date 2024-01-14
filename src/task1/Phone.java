@@ -35,12 +35,12 @@ public class Phone {
     }
 
     public Phone(int number, String model) {
-        this.number = number;
-        this.model = model;
+        this(number, model,234);
     }
 
     public Phone(int number, String model, int weight) {
-        this(number, model);
+        this.number = number;
+        this.model = model;
         this.weight = weight;
     }
 
